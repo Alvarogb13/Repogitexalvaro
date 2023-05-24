@@ -1,4 +1,9 @@
 import java.util.*;
+/**
+ * En este metodo lo que se hace es utilizar el metodo creado en la calsesecundaria
+ * @author alumno
+ *
+ */
 public class ClasePrincipal {
 	public static void main (String [] args) {
 		ArrayList<Integer> edades = new ArrayList<Integer>();

@@ -1,4 +1,9 @@
 import java.util.*;
+/**
+ * En esta clase se hace la funcion de comprobar arraylist
+ * @author alumno
+ *
+ */
 public class ClaseSecundaria {
 	private ArrayList<Integer> edades;
 
@@ -11,6 +16,12 @@ public class ClaseSecundaria {
 	public void setEdades(ArrayList<Integer> edades) {
 		this.edades = edades;
 	}
+	/**
+	 * Este metdodo mira la edad y la casifica
+	 * el parametro edad es un arraylist
+	 * @param edades
+	 * @return
+	 */
 	public String comprobarArray(ArrayList<Integer> edades) {
 		int mayores = 0, juvilados = 0, menores = 0;
 		for (int i = 0; i < edades.size(); i++) {
